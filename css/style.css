@@ -160,3 +160,12 @@ header {
     margin-top: 10px; }
   .contact .form input[type="text"]:active {
     border: none; }
+
+footer {
+  font-size: 15px;
+  color: #525252;
+  background-color: #131313;
+  height: 65px; }
+  footer span {
+    margin-top: 30px;
+    display: inline-block; }
