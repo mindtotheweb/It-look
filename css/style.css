@@ -1,3 +1,14 @@
+h1 {
+  font-size: 33px;
+  margin-left: 85px;
+  margin-bottom: 45px; }
+
+h6 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #b7a176;
+  margin-left: 85px; }
+
 header {
   background-image: url("../img/top_bg.png");
   height: 100vh;
@@ -25,22 +36,40 @@ header {
 
 .weWait {
   padding-top: 120px;
+  padding-bottom: 120px;
   position: relative; }
   .weWait .line {
     position: absolute;
     top: 33px;
     left: 20px; }
-  .weWait h6 {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #b7a176;
-    margin-left: 85px; }
-  .weWait h1 {
-    font-size: 33px;
-    margin-left: 85px;
-    margin-bottom: 45px; }
   .weWait a {
     font-size: 17px;
     text-transform: uppercase;
     color: #b7a176;
     padding-right: 10px; }
+
+.advantages {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  background-image: url("../img/bg_2.png"); }
+  .advantages h1 {
+    color: #b7a176; }
+  .advantages .line {
+    position: absolute;
+    top: 7px;
+    left: 20px; }
+  .advantages p {
+    color: #fff; }
+  .advantages .icon {
+    border-left: 1px solid #b7a176;
+    border-right: 1px solid #b7a176;
+    width: 100%;
+    height: 114px;
+    display: block;
+    margin-top: 70%; }
+    .advantages .icon p {
+      text-align: center; }
+    .advantages .icon img {
+      display: block;
+      margin: 0 auto; }
