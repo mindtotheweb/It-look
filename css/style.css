@@ -9,6 +9,18 @@ h6 {
   color: #b7a176;
   margin-left: 85px; }
 
+a {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #b7a176;
+  padding-right: 10px;
+  display: inline-block; }
+
+.norm {
+  text-align: left; }
+  .norm a {
+    text-align: left; }
+
 header {
   background-image: url("../img/top_bg.png");
   height: 100vh;
@@ -42,11 +54,6 @@ header {
     position: absolute;
     top: 33px;
     left: 20px; }
-  .weWait a {
-    font-size: 17px;
-    text-transform: uppercase;
-    color: #b7a176;
-    padding-right: 10px; }
 
 .advantages {
   position: relative;
@@ -73,3 +80,46 @@ header {
     .advantages .icon img {
       display: block;
       margin: 0 auto; }
+
+.about {
+  margin-top: 100px; }
+  .about .img {
+    width: 305px;
+    height: 410px; }
+  .about h2 {
+    color: #b7a176;
+    font-size: 16px;
+    text-transform: uppercase; }
+  .about h5 {
+    font-size: 33px;
+    margin-bottom: 40px; }
+  .about a {
+    padding-right: 0;
+    padding-top: 20px;
+    text-align: left; }
+  .about .block_2 {
+    text-align: center;
+    padding-top: 160px; }
+    .about .block_2 .img img {
+      width: 285px;
+      height: 300px; }
+    .about .block_2 .center {
+      color: #000;
+      padding-top: 90px; }
+      .about .block_2 .center a {
+        padding-top: 10px; }
+  .about h6 {
+    color: #000;
+    margin-left: 0; }
+  .about .block_3 {
+    text-align: center;
+    height: 300px; }
+    .about .block_3 p {
+      margin-top: 20px; }
+    .about .block_3 h6 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 40px; }
+    .about .block_3 .img img {
+      width: 285px;
+      height: 300px; }
