@@ -59,7 +59,8 @@ header {
   position: relative;
   padding-top: 90px;
   padding-bottom: 100px;
-  background-image: url("../img/bg_2.png"); }
+  background-image: url("../img/bg_2.png");
+  background-repeat: no-repeat; }
   .advantages h1 {
     color: #b7a176; }
   .advantages .line {
@@ -104,6 +105,8 @@ header {
     .about .block_2 .img img {
       width: 285px;
       height: 300px; }
+    .about .block_2 .img_2 img {
+      width: 105.7%; }
     .about .block_2 .center {
       color: #000;
       padding-top: 90px; }
@@ -147,7 +150,8 @@ header {
     background-color: #b7a176;
     color: #fff;
     text-align: center;
-    font-size: 16px; }
+    font-size: 16px;
+    display: block; }
   .contact .form input[type="text"] {
     border-top: none;
     border-left: none;
